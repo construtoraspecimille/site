@@ -200,7 +200,7 @@ p.vel{
 /*-- //banner-slider --*/
 /*-- testimonials --*/
 .testimonials h3,.about h3,h3.title,.gallery h3,.contact h3{
-	color:#b4976f;
+	color:#000;
 	font-size:2em;
 	margin:0;
 }
@@ -546,7 +546,7 @@ background: url(../images/) no-repeat -66px 0px;
 	line-height: 1.8em;
 }
 .about-us h4{
-	color:#B4976F;
+	color:#000;
 	margin:0 0 1em;
 	text-transform: capitalize;
 	font-size: 1.3em;
