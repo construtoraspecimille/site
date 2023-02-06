@@ -27,6 +27,7 @@ body a:hover{
 .banner{
 	background: url(../images/banner.jpg) no-repeat 0px 0px;
     background-size: cover;
+	background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -36,6 +37,7 @@ body a:hover{
 .banner1{
 	background: url(../images/banner.jpg) no-repeat 0px 0px;
     background-size: cover;
+	background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -63,11 +65,11 @@ body a:hover{
 }
 .navbar-nav {
     float: left;
-    margin:0.7em 0 0 6em;
+    margin:0.7em 0 0 2em;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
-    background: none;
+    background: transparent;
 }
 .navbar-default .navbar-nav > li > a {
     color: #CBCBCB;
@@ -102,14 +104,14 @@ body a:hover{
     text-align: center;
 }
 .banner-info h1{
-	font-size:1.5em;
+	font-size:2em;
 	color:#fff;
 	margin:0;
 	line-height:1.3em;
 	
 }
 .banner-info p{
-	font-size:14px;
+	font-size:22px;
 	color:#E1E1E1;
 	line-height:1.8em;
 	margin:1em 0 2em;
@@ -1213,12 +1215,12 @@ h2.typoh2{
 /*-- //single --*/
 @media (max-width:1440px){
 	.banner-info {
-		margin: 18em auto 0;
+		margin: 12em auto 0;
 	}
 }
 @media (max-width: 1280px){
 	.banner-info {
-		margin: 12em auto 0;
+		margin: 6em auto 0;
 	}
 	.banner {
 		min-height: 550px;
